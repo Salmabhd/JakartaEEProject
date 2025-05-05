@@ -15,5 +15,13 @@
         <servlet-name>enseignants</servlet-name>
         <url-pattern>/enseignants</url-pattern>
     </servlet-mapping>
+<servlet>
+   <servlet-name>departements</servlet-name>
+   <servlet-class>com.example.servlet.ListeDepartementsServlet</servlet-class>
+</servlet>
 
+<servlet-mapping>
+   <servlet-name>departements</servlet-name>
+   <url-pattern>/departements</url-pattern>
+</servlet-mapping>
 </web-app>
