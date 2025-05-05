@@ -14,10 +14,17 @@ INSERT INTO etudiant (nom, prenom, email) VALUES
 ('Bodan', 'Lahcen', 'luc@univ.ma');
 
 -- Table : Departement
+CREATE DATABASE IF NOT EXISTS etudiants_db;
+
+USE etudiants_db;
+
 CREATE TABLE IF NOT EXISTS departement (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     nom VARCHAR(100) NOT NULL
 );
+INSERT INTO departement (nom) VALUES 
+('Informatique'), ('Mathématiques'), ('Physique');
+
 
 -- Table : Filiere
 CREATE TABLE IF NOT EXISTS filiere (
