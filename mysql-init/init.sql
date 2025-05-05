@@ -95,4 +95,4 @@ UPDATE etudiant SET id_filiere = 1 WHERE nom = 'Bodan';
 -- Inscriptions
 INSERT INTO inscription (id_etudiant, id_matiere, date_inscription) VALUES
 (1, 1, '2025-04-01'),
-(2, 2, '2025-04-02');
+(2, 2, '2025-05-02');

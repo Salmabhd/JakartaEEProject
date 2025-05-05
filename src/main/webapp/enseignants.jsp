@@ -2,6 +2,7 @@
 <html>
 <head><title>Liste des Enseignants</title></head>
 <body>
+
 <h2>Enseignants</h2>
 <table border="1">
     <tr><th>ID</th><th>Nom</th><th>Prénom</th><th>Email</th><th>Département ID</th></tr>

@@ -2,10 +2,12 @@ package com.example.dao;
 import com.example.model.Enseignant;
 import java.sql.*;
 import java.util.*;
+
 public class EnseignantDAO {
     private String jdbcURL = "jdbc:mysql://mysql:3306/etudiants_db?useSSL=false&allowPublicKeyRetrieval=true";
     private String jdbcUser = "root";
     private String jdbcPassword = "";
+
 
     public List<Enseignant> getAll() {
         List<Enseignant> liste = new ArrayList<>();

@@ -9,7 +9,6 @@ public class Enseignant {
 
     // Constructeurs
     public Enseignant() {}
-
     public Enseignant(int id, String nom, String prenom, String email, int idDepartement) {
         this.id = id;
         this.nom = nom;
