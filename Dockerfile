@@ -1,2 +1,3 @@
 FROM payara/server-full:latest
-COPY target/jakartaee_docker_tp-1.0-SNAPSHOT.war /opt/payara/deployments
+COPY target/jakartaee-mysql-1.0.war /opt/payara/deployments
+

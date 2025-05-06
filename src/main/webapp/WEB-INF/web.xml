@@ -24,4 +24,16 @@
    <servlet-name>departements</servlet-name>
    <url-pattern>/departements</url-pattern>
 </servlet-mapping>
+
+
+  <servlet>
+        <servlet-name>salle</servlet-name>
+        <servlet-class>com.example.servlet.ListeSalleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>salle</servlet-name>
+        <url-pattern>/salle</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
