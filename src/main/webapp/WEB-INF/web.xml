@@ -35,13 +35,23 @@
         <url-pattern>/salle</url-pattern>
     </servlet-mapping>
 
-     <servlet>
-        <servlet-name>listeFilieres</servlet-name>
-        <servlet-class>com.example.servlet.ListeFiliereServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>filieres</servlet-name>
-        <url-pattern>/filieres</url-pattern>
-    </servlet-mapping>
+    <servlet>
+    <servlet-name>listeFilieres</servlet-name>
+    <servlet-class>com.example.servlet.ListeFiliereServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>listeFilieres</servlet-name>
+    <url-pattern>/filieres</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ListeInscriptionsServlet</servlet-name>
+    <servlet-class>com.example.servlet.ListeInscriptionsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ListeInscriptionsServlet</servlet-name>
+    <url-pattern>/inscription</url-pattern>
+</servlet-mapping>
+
 
 </web-app>  

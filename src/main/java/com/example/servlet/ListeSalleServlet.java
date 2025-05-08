@@ -12,8 +12,8 @@ public class ListeSalleServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse res)
             throws ServletException, IOException {
         SalleDAO dao = new SalleDAO();
-        List<Salle> salle = dao.getAll();
-        req.setAttribute("salle", salle);
+        List<Salle> salles = dao.getAll();
+        req.setAttribute("salles", salles);
         req.getRequestDispatcher("salle.jsp").forward(req, res);
     }
 }
